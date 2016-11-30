@@ -1,0 +1,2137 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"priv",
+				"privacyBypassParameter"
+			],
+			[
+				"getTrigge",
+				"getTriggeredEmails"
+			],
+			[
+				"getTRigg",
+				"getTriggeredEmailByTrigger"
+			],
+			[
+				"setTrig",
+				"setTriggeredEmail"
+			],
+			[
+				"getTrigger",
+				"getTriggeredEmail"
+			],
+			[
+				"p",
+				"pack"
+			],
+			[
+				"trigger",
+				"triggeredEmails"
+			],
+			[
+				"event_messa",
+				"event_message_id"
+			],
+			[
+				"Confi",
+				"ConfirmationsController"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"Tick",
+				"TicketOrder"
+			],
+			[
+				"ticketO",
+				"ticketOrderId"
+			],
+			[
+				"Invalid",
+				"InvalidTypeException"
+			],
+			[
+				"rsvpNo",
+				"rsvpNoDefaults"
+			],
+			[
+				"Trigg",
+				"TriggeredEmailDefaultsHelperTest"
+			],
+			[
+				"EmailConfirma",
+				"RsvpEmailConfirmationServiceTest"
+			],
+			[
+				"trig",
+				"triggeredEmail"
+			],
+			[
+				"ticketType",
+				"ticketTypeDescriptors"
+			],
+			[
+				"expec",
+				"expectedException\t@expectedException"
+			],
+			[
+				"ticket",
+				"ticketTypeDescriptors"
+			],
+			[
+				"ticek",
+				"ticketTypeDescriptors"
+			],
+			[
+				"getTriggered",
+				"getTriggeredEmails"
+			],
+			[
+				"expe",
+				"expectedException\t@expectedException"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"triggered",
+				"triggered_emails"
+			],
+			[
+				"extra",
+				"extra_ticket_info"
+			],
+			[
+				"email_",
+				"email_confirmation"
+			],
+			[
+				"getB",
+				"getByEventAndRsvpMethod"
+			],
+			[
+				"save",
+				"saveInTicketTypeTable"
+			],
+			[
+				"event_rs",
+				"event_rsvp_id"
+			],
+			[
+				"_getCustomRe",
+				"_getCustomRegIvivvaThemeEventIds"
+			],
+			[
+				"colu",
+				"column_name"
+			],
+			[
+				"customRS",
+				"customRsvpField"
+			],
+			[
+				"colum",
+				"columnName"
+			],
+			[
+				"custom",
+				"customRsvpField"
+			],
+			[
+				"customRs",
+				"customRsvpFields"
+			],
+			[
+				"eventSetting",
+				"eventSettingId"
+			],
+			[
+				"star",
+				"startingEventId"
+			],
+			[
+				"Addre",
+				"AddressBookContact"
+			],
+			[
+				"Add",
+				"addressBookContact"
+			],
+			[
+				"guestName",
+				"guestNamesById"
+			],
+			[
+				"parent_event_",
+				"parent_event_rsvp_id"
+			],
+			[
+				"arra_inter",
+				"array_intersect_key"
+			],
+			[
+				"column",
+				"columnName"
+			],
+			[
+				"EventM",
+				"EventMessage"
+			],
+			[
+				"email_co",
+				"email_confirmation_group"
+			],
+			[
+				"dopeRepe",
+				"dopeRepeatableContainer"
+			],
+			[
+				"dope-repeata",
+				"dope-repeatable-container"
+			],
+			[
+				"customize",
+				"customizeConfirmationEmailContextForOrganization"
+			],
+			[
+				"subs",
+				"subscriberParams"
+			],
+			[
+				"eventHandler",
+				"eventHandlerFunction"
+			],
+			[
+				"delapuente",
+				"DelapuenteShell"
+			],
+			[
+				"arra",
+				"array_map"
+			],
+			[
+				"toHAve",
+				"toHaveBeenCalled"
+			],
+			[
+				"fall",
+				"fallbackKey"
+			],
+			[
+				"questio",
+				"questionGroup"
+			],
+			[
+				"arra_fi",
+				"array_filter"
+			],
+			[
+				"newSTa",
+				"newStageId"
+			],
+			[
+				"getQu",
+				"getQuestionSpecificPropsForColumnName"
+			],
+			[
+				"ques",
+				"questionType"
+			],
+			[
+				"defaul",
+				"defaultFilters"
+			],
+			[
+				"with",
+				"without"
+			],
+			[
+				"creatU",
+				"createUserWithDefaultPlan"
+			],
+			[
+				"user",
+				"userBootstrapData"
+			],
+			[
+				"explo",
+				"explodedTags"
+			],
+			[
+				"homep",
+				"homepageEventId"
+			],
+			[
+				"citi",
+				"citiesCount"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"Dr",
+				"dryRun"
+			],
+			[
+				"ongoi",
+				"ongoingCardWithoutEndDate"
+			],
+			[
+				"upcomin",
+				"upcomingOngoing"
+			],
+			[
+				"only",
+				"onlyTbd"
+			],
+			[
+				"moment",
+				"nowMoment"
+			],
+			[
+				"organiza",
+				"organizationId"
+			],
+			[
+				"splash",
+				"splashGlobal"
+			],
+			[
+				"avatar",
+				"avatar_url"
+			],
+			[
+				"SplashHub",
+				"SplashHubItem"
+			],
+			[
+				"global",
+				"globalSearchPage"
+			],
+			[
+				"globalSea",
+				"globalSearchEventId"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"prof",
+				"profileUrl"
+			],
+			[
+				"aug",
+				"augDeferredError"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"update",
+				"updateData"
+			],
+			[
+				"eventS",
+				"eventStageSufix"
+			],
+			[
+				"Even",
+				"EventStage"
+			],
+			[
+				"event_sta",
+				"event_stage_id"
+			],
+			[
+				"newD",
+				"newDesignEventId"
+			],
+			[
+				"newDesignStage",
+				"newDesignStage"
+			],
+			[
+				"replaceS",
+				"replaceSplashFeedIds"
+			],
+			[
+				"cityThe",
+				"cityThemeEventId"
+			],
+			[
+				"eventT",
+				"eventThemeEventId"
+			],
+			[
+				"imageS",
+				"imageSf1"
+			],
+			[
+				"EventS",
+				"EventSetting"
+			],
+			[
+				"splash_",
+				"splash_log"
+			],
+			[
+				"end",
+				"end_timestamp"
+			],
+			[
+				"hubC",
+				"hubCardB"
+			],
+			[
+				"hubCA",
+				"hubCardA"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"hubCardColl",
+				"hubCardCollectionId"
+			],
+			[
+				"mockS",
+				"mockSf"
+			],
+			[
+				"clon",
+				"clonedLayout"
+			],
+			[
+				"layout",
+				"layoutArray"
+			],
+			[
+				"data",
+				"dataToClone"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"mock",
+				"mockS3"
+			],
+			[
+				"theme",
+				"themeStyles"
+			],
+			[
+				"city",
+				"cityThemeEventId"
+			],
+			[
+				"eventTheme",
+				"eventThemeSplashThemeId"
+			],
+			[
+				"persi",
+				"persistentHubId"
+			],
+			[
+				"hubCard",
+				"hubCardCollection"
+			],
+			[
+				"hubCac",
+				"hubCardCollectionId"
+			],
+			[
+				"eventThe",
+				"eventThemeSplashThemeId"
+			],
+			[
+				"organiz",
+				"organizationId"
+			],
+			[
+				"cityT",
+				"cityThemeSplashThemeId"
+			],
+			[
+				"ocb",
+				"ocbDomain"
+			],
+			[
+				"curr",
+				"currentElement"
+			],
+			[
+				"deletd",
+				"deletedIds"
+			],
+			[
+				"deleted",
+				"deletedEventId"
+			],
+			[
+				"o",
+				"organizationId"
+			],
+			[
+				"organization",
+				"organization_id"
+			],
+			[
+				"array_f",
+				"array_filter"
+			],
+			[
+				"isDa",
+				"isDateDropdown"
+			],
+			[
+				"specific",
+				"specificProps"
+			],
+			[
+				"eventTO",
+				"eventToAdd1"
+			],
+			[
+				"splashFee",
+				"splashFeedEventHubItem"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "current",
+		"selected_items":
+		[
+			[
+				"current",
+				"Git: Log Current File"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"log c",
+				"Git: Log Current File"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"gi tbla",
+				"Git: Blame"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"gi ",
+				"Git: Blame"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jsonde",
+				"Preferences: Pretty JSON Settings - Default"
+			],
+			[
+				"jane",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"min",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"preyy",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"gi bl",
+				"Git: Blame"
+			],
+			[
+				"syntaxjava",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"sniff",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"phpsn",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"phpsni",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"gitbla",
+				"Git: Blame"
+			],
+			[
+				"php  code",
+				"PHP Code Sniffer: Clear sniffer marks"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pgp",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"javascip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"PGP",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"mini",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"log ",
+				"Git: Log Current File"
+			],
+			[
+				"pretty json",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"blame",
+				"Set Syntax: Git Blame"
+			],
+			[
+				"gi bla",
+				"Set Syntax: Git Blame"
+			],
+			[
+				"next",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"it bla",
+				"Git: Blame"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"sublimeli",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sublimelinterdebu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"jshin",
+				"jshintify: show errors list for current line"
+			],
+			[
+				"jshint",
+				"jshintify: show errors list for current line"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"javscr",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"g ",
+				"Git: Blame"
+			],
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"g",
+				"Git: Blame"
+			],
+			[
+				"hbs",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"git cur",
+				"Git: Log Current File"
+			],
+			[
+				"git log ",
+				"Git: Log Current File"
+			],
+			[
+				"pretyt",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"g tbla",
+				"Git: Blame"
+			],
+			[
+				"git la",
+				"Git: Log All"
+			],
+			[
+				"prety",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"retty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"mon",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"rett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"minif",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"minify",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"json min",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"gt bla",
+				"Git: Blame"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"javne",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"jsonpre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"javanex",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"gt",
+				"Git: Blame"
+			],
+			[
+				"g tibla",
+				"Git: Blame"
+			],
+			[
+				"jsonp",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"git l",
+				"Git: Log Current File"
+			],
+			[
+				"syntax javascript",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"syntax j",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery.ajax"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"gi tlog",
+				"Git: Log Current File"
+			],
+			[
+				"sytnax",
+				"Set Syntax: Jade"
+			],
+			[
+				"sytnax ",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"syntax",
+				"Set Syntax: Diff"
+			],
+			[
+				"synta",
+				"Set Syntax: XML"
+			],
+			[
+				"sytna",
+				"Set Syntax: SQL"
+			],
+			[
+				"syntarb",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntax java",
+				"Set Syntax: Java"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: Jade"
+			],
+			[
+				"syntaxsh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"Java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jasmin",
+				"Set Syntax: Jasmine"
+			],
+			[
+				"jasmine",
+				"Set Syntax: Jasmine"
+			],
+			[
+				"synjas",
+				"Set Syntax: Jasmine"
+			],
+			[
+				"javasrip",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"synshel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"jsonmin",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"Jasmine",
+				"Set Syntax: Jasmine"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 513.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/guillermo/sites/react-native/assemblies"
+	],
+	"file_history":
+	[
+		"/Users/guillermo/sites/splash/app/vendors/splash/CalendarAttachmentFactory.php",
+		"/Users/guillermo/sites/splash/app/controllers/confirmations_controller.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/splash/WebpackTest.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/splash/EmailConfirmations/EmailConfirmationsManagerTest.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/TriggeredEmailsAdapter.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/EmailConfirmationsManager.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/splash/Exception/InvalidTypeExceptionTest.php",
+		"/Users/guillermo/sites/splash/app/tests/helpers/MockClass.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/EmailSettingsFormatParser.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EmailConfirmations/EmailSettingsFormatParserTest.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/Config/EmailConfirmationConfig.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/Manager/EmailConfirmationManager.php",
+		"/Users/guillermo/Library/Application Support/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings",
+		"/Users/guillermo/sites/splash/soul-google-analytics-slash-fixed.html",
+		"/Users/guillermo/Desktop/soul-facebook-pixel-slash-fixed.html",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/FormatParser/LegacyFormatParser.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EventEmailSettings/FormatParser/LegacyFormatParserTest.php",
+		"/Users/guillermo/sites/splash/cake/libs/class_registry.php",
+		"/Users/guillermo/sites/splash/app/models/event_setting.php",
+		"/Users/guillermo/sites/splash/app/models/event.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EmailConfirmations/Config/EmailConfirmationConfigTest.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EmailConfirmations/Adapter/EmailConfirmationAdapterTest.php",
+		"/Users/guillermo/sites/splash/app/tests/SplashTest.php",
+		"/Users/guillermo/sites/splash/app/controllers/email_api_controller.php",
+		"/Users/guillermo/sites/splash/app/models/ticket_type.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/confirmations/views/MainView.js",
+		"/Users/guillermo/sites/splash/app/controllers/components/image.php",
+		"/Users/guillermo/sites/splash/app/controllers/events_controller.php",
+		"/Users/guillermo/sites/splash/app/tests/controllers/SitesControllerTest.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EmailConfirmations/Adapter/EmailConfirmationAdapter.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EmailConfirmations/Manager/EmailConfirmationManagerTest.php",
+		"/Users/guillermo/sites/splash/app/tests/controllers/ConfirmationsControllerTest.php",
+		"/Users/guillermo/sites/splash/app/controllers/sites_controller.php",
+		"/Users/guillermo/sites/splash/app/vendors/fileuploader.php",
+		"/Users/guillermo/sites/splash/app/tests/models/TicketTypeTest.php",
+		"/Users/guillermo/sites/splash/app/models/event_message.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/ConfirmationEmails/Helper/RsvpConfirmationEmailHelper.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/EventEmailSettings/Manager/RsvpEmailSettingsManagerTest.php",
+		"/Users/guillermo/sites/splash/app/vendors/shells/delapuente.php",
+		"/Users/guillermo/sites/splash/app/models/address_book_contact_info.php",
+		"/Users/guillermo/sites/splash/app/vendors/shells/augMigration.php",
+		"/Users/guillermo/sites/splash/app/models/event_rsvp_answer.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/CmsElementsLib.php",
+		"/Users/guillermo/sites/splash/app/views/elements/hub-event-adder-modal.ctp",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/modules/event-duplicator/event-duplicator.js",
+		"/Users/guillermo/sites/splash/app/webroot/v2/js/color-swatch.js",
+		"/Users/guillermo/sites/splash/app/views/events/pre-splash-modal.ctp",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/modules/event-duplicator/theme-out-of-date-template.hbs",
+		"/Users/guillermo/sites/splash/app/views/events/index.ctp",
+		"/Users/guillermo/sites/splash/app/tests/controllers/AccountControllerTest.php",
+		"/Users/guillermo/sites/splash/app/models/address_book_contact.php",
+		"/Users/guillermo/sites/splash/app/controllers/splash_controller.php",
+		"/Users/guillermo/sites/splash/app/controllers/contacts_controller.php",
+		"/Users/guillermo/sites/splash/app/views/elements/page-action-settings.ctp",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/email-sender/tests/mock-app.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/modal.settings.js",
+		"/Users/guillermo/sites/splash/app/views/elements/settings/admin-settings.ctp",
+		"/Users/guillermo/sites/splash/cake/basics.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/.eslintrc.js",
+		"/Users/guillermo/sites/splash/app/tests/EmailBuilder/EventSettingsEmailTest.php",
+		"/Users/guillermo/sites/splash/app/tests/models/EventMessageTest.php",
+		"/Users/guillermo/sites/splash/app/vendors/shells/send_sms.php",
+		"/Users/guillermo/sites/splash/app/views/admin/organizations.ctp",
+		"/Users/guillermo/sites/splash/app/views/admin/add_org.ctp",
+		"/Users/guillermo/sites/splash/app/vendors/shells/userNotifications.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/LayoutArray.php",
+		"/Users/guillermo/sites/splash/cake/libs/controller/component.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-radio/extensions/sui.radio-option.text-input.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-radio/sui.radio-option.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-radio/sui.radio.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-multi-checkbox/sui.multi-checkbox.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-checkbox/sui.checkbox.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-textinput/extensions/sui.textinput.address.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/dashboard.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/managers/pageSavingManager.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/modules/bufferedSaver.js",
+		"/Users/guillermo/sites/splash/app/vendors/shells/allExports.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/finetune-layout.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/legacy_finetune/finetune.repeatableElement.js",
+		"/Users/guillermo/sites/splash/phpcs.xml",
+		"/Users/guillermo/sites/splash/app/vendors/shells/meche.php",
+		"/Users/guillermo/sites/splash/app/app_controller.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/ConfirmationEmails/Adaptor/RsvpConfirmationEmailAdaptor.php",
+		"/Users/guillermo/sites/splash/app/views/elements/email/text/guest_list.ctp",
+		"/Users/guillermo/sites/splash/app/vendors/splash/ConfirmationEmails/Helper/ConfirmationEmailHelperInterface.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/Manager/EmailSettingsManagerInterface.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/Manager/RsvpEmailSettingsManager.php",
+		"/Users/guillermo/sites/splash/app/tests/vendors/ConfirmationEmails/Helper/RsvpConfirmationEmailHelperTest.php",
+		"/Users/guillermo/sites/splash/app/tests/autoloader.php",
+		"/Users/guillermo/sites/splash/vendor/autoload.php",
+		"/Users/guillermo/sites/splash/vendor/composer/autoload_real.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/Manager/TicketEmailSettingsManager.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/Confirmations/EventConfirmationConfig.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/Adapter/TicketEmailSettingsAdapter.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/EventEmailSettings/Adapter/RsvpEmailSettingsAdapter.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/rsvp-settings.js",
+		"/Users/guillermo/sites/splash/app/vendors/splash/ConfirmationEmails/Helper/TicketConfirmationEmailHelper.php",
+		"/Users/guillermo/sites/splash/app/controllers/purchase_controller.php",
+		"/Users/guillermo/sites/splash/app/vendors/splash/TicketOrder.php",
+		"/Users/guillermo/sites/splash/app/tests/controllers/AppControllerTest.php",
+		"/Users/guillermo/sites/splash/app/models/user.php",
+		"/Users/guillermo/sites/splash/app/tests/models/EventTest.php",
+		"/Users/guillermo/sites/splash/app/resources/public/styl/finetune-workspace.styl",
+		"/Users/guillermo/sites/splash/app/vendors/shells/eventRsvpToABGC.php",
+		"/Users/guillermo/sites/splash/app/models/event_rsvp.php",
+		"/Users/guillermo/sites/splash/app/models/address_book_group_contact.php",
+		"/Users/guillermo/sites/splash/app/models/address_book_group.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/legacy_finetune/finetune.workspace.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-date-dropdown/sui.date-dropdown.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-textinput/extensions/sui.textinput.datepicker.js",
+		"/Users/guillermo/sites/splash/app/controllers/admin_controller.php",
+		"/Users/guillermo/sites/splash/app/tests/helpers/Scenario.php",
+		"/Users/guillermo/sites/splash/app/controllers/email_builder_controller.php",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/managers/hub-master-card-selector/HubMasterCardSelector-test.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/cms-workspace-root.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/utils/PubSub-test.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/form-question-list/templates/form-question-view-template.hbs",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/form-question-list/views/FormQuestionSettingsView.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/form-question-list/models/FormQuestionModel.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/form-question-list/templates/form-question-settings-modal.hbs",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/email-sender/models/EmailTemplateModel.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/email-sender/views/EmailFinetuneView.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/page/cmsComponents/mapbox/MapboxFt.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/workspace/managers/font-manager/fontManager.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/page/cmsComponents/attendees-v3/AttendeesV3Ft.js",
+		"/Users/guillermo/sites/splash/app/resources/public/js/splash/page/cmsComponents/hub/HubFt.js",
+		"/Users/guillermo/sites/splash/app/views/elements/atlassian_auth.ctp",
+		"/Users/guillermo/sites/splash/app/resources/public/js/legacy-event-site.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-logfile.json,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/cake,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app",
+			"/Users/guillermo/sites/splash/app/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,*.styl,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,*.js,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,*.php,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"./splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,*.php,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,*.ctp,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,*.js,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,*.js,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,-/Users/guillermo/sites/splash/app/resources/build/**/*",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql,/Users/guillermo/sites/splash/app/resources/build/",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,-*.log",
+			"/Users/guillermo/sites/splash/app",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,*.php,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,.php,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-.xml,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-elgl-v1.js,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,*.js,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,*.styl,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,/Users/guillermo/sites/splash/docker/,/Users/guillermo/sites/splash/_tasks/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css2,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,-/Users/guillermo/sites/splash/app/resources/public/js/bigtext-min.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/cache/*,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/tmp/cache,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/coverage,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.js,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/",
+			"/Users/guillermo/sites/splash/**/*",
+			"/Users/guillermo/sites/splash/*",
+			"/Users/guillermo/sites/splash/*\n/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash\n/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/\n/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql\n/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql\n/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.php,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.log,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,*.ctp,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.js,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.styl,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.styl,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,*.js,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/**/*.js,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.css,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.css,-*.log,-/Users/guillermo/sites/splash/app/resources/public/components/*,,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.css,-*.log,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-*.css,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*,-*.sql",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js,-/Users/guillermo/sites/splash/app/webroot/**/*",
+			"/Users/guillermo/sites/splash/app/,-*.bundle.js,/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js",
+			"/Users/guillermo/sites/splash/app/**/*.js,/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map,-*.brw.js",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-*.min.css.map",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map,-.min.css.map",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-*.min.css,-*.min.js,-*.min.js.map",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*,-.min.css,-.min.js,-.min.js.map",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*",
+			"/Users/guillermo/sites/splash/app/,",
+			"/Users/guillermo/sites/splash/app/,-/Users/guillermo/sites/splash/app/config/*",
+			"/Users/guillermo/sites/splash/app/resources,-/Users/guillermo/sites/splash/app/config/*",
+			"/Users/guillermo/sites/splash/app,-/Users/guillermo/sites/splash/app/config/*",
+			"/Users/guillermo/sites/splash/app,-/Users/guillermo/sites/splash/app/migrations/*",
+			"/Users/guillermo/sites/splash/app,-/Users/guillermo/sites/splash/app/config.txt",
+			"/Users/guillermo/sites/splash/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"waitlist_settings",
+			"$Even",
+			"$EventRsvp =",
+			"EmailConfirmationConfigTest",
+			"email_se",
+			"getConfirmationTriggerTypeForRsvp",
+			"getConfirmationTypeForRsvp",
+			"\t",
+			"rsvpData",
+			"getConfirmationTypeForRsvp",
+			"growth machine",
+			"growthMachine",
+			"sendConfirmationEmail",
+			"sendConf",
+			"data['white_label_from_email']",
+			"white_label_from_email",
+			"data['Event']",
+			"$data['EventSetting",
+			"$data[",
+			"createICal",
+			"uploadToUrl",
+			"checkForAttachments",
+			"createICal",
+			"event",
+			"returnVenueFormatted",
+			"data['venue']",
+			"data['privacy_bypass']",
+			"data['date']['end']",
+			"data['date']['start']",
+			"date",
+			"$date",
+			"data['date']['start']",
+			"'Event']['domain']",
+			"'Event']['domain'] ",
+			"a['Event']['domain']",
+			"real_domain",
+			"['Event']['real_domain']",
+			"Title",
+			"lashSubdomain",
+			"data['Event']['real_domain']",
+			";\n\t}",
+			"requiredEventDetails",
+			"neededEventDetails",
+			"'",
+			"\"{$this->getClassN",
+			"venue",
+			"date",
+			"type",
+			"_CalendarLink",
+			"getConfirmationEmailContext",
+			"sendConfirmationEmail",
+			"waitlist",
+			"on-page",
+			"on-",
+			"on-page",
+			"descrip",
+			"descr",
+			"\"",
+			"EventSettingEmailSettings",
+			"atlassianNewRsvpUnrsvpEmailTemplates",
+			"g element to new-1234 so that a new \\splash feed r",
+			"s->upsertTriggeredEmail($config->toSnakeCaseArray())",
+			"setCachedMap(",
+			"description",
+			"enableEmailOwnerEmails",
+			"disableEmailOwnerEmails",
+			"getFromEmailSettings",
+			"prevent_email_owner_emails",
+			"disableEmailOwnerEmails",
+			"enableEmailOwnerEmails",
+			"description",
+			"insertIntoEmailSettings",
+			"new_unrsvp_email_id",
+			"insertIntoEmailSettings",
+			"removeFromEmailSettings",
+			"tags",
+			"n.search",
+			"ow.location.s",
+			"forcedRenderCardLimitMatches",
+			"window.",
+			"temporaryFilters",
+			"dataB",
+			"https://cl.ly/091M1Y2H0c0l",
+			"bower",
+			"npm",
+			"download.gna.org/wkhtmltopdf/0.12/0.12.2/wkhtml",
+			"npm",
+			"EmailSettingsTriggeredEmailsFormatParser",
+			"this->getTriggeredEmails",
+			"emailSettings",
+			"EventSetting->getEmailSettings",
+			"event_id",
+			"ventSetting->getTriggeredEmails",
+			"getTriggeredEmails",
+			"getTriggeredEmailsInSimpleFormat",
+			"\"",
+			"getTriggeredEmails",
+			"getTriggeredEmailsInSimpleFormat",
+			"w splas",
+			"getTriggeredEmails",
+			"\t",
+			"getCachedMaps",
+			"\t",
+			"setPreventEmailOwnerEmails",
+			"\t",
+			"testCustomConfirmationMessage",
+			"testSetTriggeredEmail",
+			"sh\\EmailConfirmation\\EmailConfirmat",
+			"getTriggeredEmail",
+			"\t",
+			"onfig = new EmailConfirmationConfig();\n        $config\n            ->setTrigger('rsvp-yes')\n            ->setSubject('Welcome!')\n            ->setActive(1)\n        ;\n        $es = new EventSettingEmailSettings(1, []);\n        $es->setTriggeredEmails([\n            $config->toSnakeCaseArray(),\n        ]);",
+			"setTicketTypdId",
+			"!',\n",
+			"1",
+			"rsvp-yes",
+			"config",
+			"Tri",
+			"trig",
+			"oArray",
+			"toA",
+			"config",
+			"EmailConfirmationConfig",
+			"EmailConfirmationC",
+			"CaseHelper",
+			"case",
+			"trigger",
+			"GOOGLE_KEY_MAPS",
+			"Google.keys.maps"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}\n",
+			"nexus.register(",
+			"nexus.use(",
+			"nexus.register",
+			"nexus.use",
+			"splash.finetune.blockSavingModal.openBlockEditingModal",
+			"{{#if helperText}}<div sui-input-helper-text>{{{helperText}}}",
+			"sui-input-helper-text",
+			"_ = require('underscore'),",
+			"$fontFamilyBold",
+			"$fontFamilyMedium",
+			"$fontFamilyBook",
+			"$fontFamilyMedium",
+			"CmsComponentFt",
+			"designerCloseTreeTab",
+			"venue-search-zip-code",
+			"",
+			"this"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.phpcs_result_view":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "assemblies.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"splash/app/tests/vendors/splash/EmailConfirmations/TriggeredEmailDeciderTest.php"
+			],
+			[
+				"event",
+				"splash/app/models/event.php"
+			],
+			[
+				"eventsett.php",
+				"splash/app/models/event_setting.php"
+			],
+			[
+				"eventrsv",
+				"splash/app/models/event_rsvp.php"
+			],
+			[
+				"triggeremail",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailsAdapter.php"
+			],
+			[
+				"evesetemalse",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettings.php"
+			],
+			[
+				"eventmessage",
+				"splash/app/models/event_message.php"
+			],
+			[
+				"eventscon",
+				"splash/app/controllers/events_controller.php"
+			],
+			[
+				"registration",
+				"splash/app/controllers/registration_controller.php"
+			],
+			[
+				"event.",
+				"splash/app/models/event.php"
+			],
+			[
+				"ndarattachmentfactory.p",
+				"splash/app/vendors/splash/CalendarAttachmentFactory.php"
+			],
+			[
+				"defaultshelp",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"calendaratta",
+				"splash/app/vendors/splash/CalendarAttachmentFactory.php"
+			],
+			[
+				"appcon",
+				"splash/app/app_controller.php"
+			],
+			[
+				"confirmacon",
+				"splash/app/controllers/confirmations_controller.php"
+			],
+			[
+				"triggdefau",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"hubcaviewtest",
+				"splash/app/resources/public/js/splash/utils/hubs/hubCardView-test.js"
+			],
+			[
+				"hubcavi",
+				"splash/app/resources/public/js/splash/utils/hubs/hubCardView.js"
+			],
+			[
+				"meche",
+				"splash/app/vendors/shells/meche.php"
+			],
+			[
+				"eventsetemailset",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettings.php"
+			],
+			[
+				"abcta",
+				"splash/app/models/address_book_contact_tag.php"
+			],
+			[
+				"splashuhb",
+				"splash/app/models/splash_hub.php"
+			],
+			[
+				"splashhubi",
+				"splash/app/models/splash_hub_item.php"
+			],
+			[
+				"tuning-fork-loader",
+				"splash/app/views/elements/tuning-fork-loader.ctp"
+			],
+			[
+				"cmshubjs",
+				"splash/app/resources/public/js/splash/page/cmsComponents/hub/Hub.js"
+			],
+			[
+				"subsila",
+				"splash/app/views/layouts/subsite-layout.ctp"
+			],
+			[
+				"docker",
+				"splash/Dockerfile"
+			],
+			[
+				"dockerfi",
+				"splash/Dockerfile"
+			],
+			[
+				"ormadap",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettingsORMAdapter.php"
+			],
+			[
+				"emaileventsetest",
+				"splash/app/tests/EmailBuilder/EventSettingsEmailTest.php"
+			],
+			[
+				"formaparser",
+				"splash/app/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParser.php"
+			],
+			[
+				"emaiseorm",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettingsORMAdapter.php"
+			],
+			[
+				"emailevensette",
+				"splash/app/tests/EmailBuilder/EventSettingsEmailTest.php"
+			],
+			[
+				"eventsetttest",
+				"splash/app/tests/models/EventSettingTest.php"
+			],
+			[
+				"eventsettemailsette",
+				"splash/app/tests/vendors/splash/Event/EventSettingEmailSettingsTest.php"
+			],
+			[
+				"emailcon",
+				"splash/app/tests/vendors/splash/EmailConfirmations/EmailConfirmationConfigTest.php"
+			],
+			[
+				"event_set",
+				"splash/app/models/event_setting.php"
+			],
+			[
+				"emailconfirmationconfig",
+				"splash/app/vendors/splash/EmailConfirmations/EmailConfirmationConfig.php"
+			],
+			[
+				"composer",
+				"splash/composer.json"
+			],
+			[
+				"emailse",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettings.php"
+			],
+			[
+				".env",
+				"splash/docker/.env"
+			],
+			[
+				"core.",
+				"splash/app/config/core.php"
+			],
+			[
+				"eventsettingemailsettings",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettings.php"
+			],
+			[
+				"triggeeremail",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailsAdapter.php"
+			],
+			[
+				"emailsettingstriggeredemailsformatparser",
+				"splash/app/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParser.php"
+			],
+			[
+				"ettingstriggeredemailsformatpar",
+				"splash/app/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParser.php"
+			],
+			[
+				"eventset",
+				"splash/app/models/event_setting.php"
+			],
+			[
+				"eventsettem",
+				"splash/app/tests/EmailBuilder/EventSettingsEmailTest.php"
+			],
+			[
+				"ventsettingemailsettingsormadapter.php",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettingsORMAdapter.php"
+			],
+			[
+				"er/views/mainview.js",
+				"splash/app/resources/public/js/splash/email-sender/views/MainView.js"
+			],
+			[
+				"cmsuti",
+				"splash/app/resources/public/js/splash/utils/cms-utils.js"
+			],
+			[
+				"emailconfi",
+				"splash/app/vendors/splash/EmailConfirmations/EmailConfirmationConfig.php"
+			],
+			[
+				"tridefahelp",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"ticket",
+				"splash/app/models/ticket_type.php"
+			],
+			[
+				"route",
+				"splash/app/config/routes.php"
+			],
+			[
+				"confirmacontest",
+				"splash/app/tests/controllers/ConfirmationsControllerTest.php"
+			],
+			[
+				"recorno",
+				"splash/app/vendors/splash/Exception/RecordNotFoundException.php"
+			],
+			[
+				"tickettyp",
+				"splash/app/models/ticket_type.php"
+			],
+			[
+				"triggeredemailsadapter",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailsAdapter.php"
+			],
+			[
+				"defaulshel",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"user",
+				"splash/app/models/user.php"
+			],
+			[
+				"organi",
+				"splash/app/models/organization.php"
+			],
+			[
+				"signu",
+				"splash/app/signup.ctp"
+			],
+			[
+				"defaultshre",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"confrima",
+				"splash/app/resources/public/js/splash/confirmations/collections/ConfirmationCollection.js"
+			],
+			[
+				"confirma",
+				"splash/app/controllers/confirmations_controller.php"
+			],
+			[
+				"usergr",
+				"splash/app/models/user_group.php"
+			],
+			[
+				"orgnai",
+				"splash/app/models/organization.php"
+			],
+			[
+				"evetco",
+				"splash/app/models/event_contact.php"
+			],
+			[
+				"eventcon",
+				"splash/app/models/event_contact.php"
+			],
+			[
+				"sitescon",
+				"splash/app/controllers/sites_controller.php"
+			],
+			[
+				"utiltest",
+				"splash/app/tests/vendors/splash/UtilTest.php"
+			],
+			[
+				"eventseemailset",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettings.php"
+			],
+			[
+				"acccontest",
+				"splash/app/tests/controllers/AccountControllerTest.php"
+			],
+			[
+				"dashboar",
+				"splash/app/resources/public/js/dashboard.js"
+			],
+			[
+				"eventsetting",
+				"splash/app/models/event_setting.php"
+			],
+			[
+				"gemailsettingsormadapter.ph",
+				"splash/app/vendors/splash/Event/EventSettingEmailSettingsORMAdapter.php"
+			],
+			[
+				"triggeredemaildefaultshelper.php",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"splash_con",
+				"splash/app/controllers/splash_controller.php"
+			],
+			[
+				"controller",
+				"splash/cake/libs/controller/controller.php"
+			],
+			[
+				"ticket_orphp",
+				"splash/app/models/ticket_order.php"
+			],
+			[
+				"appmo",
+				"splash/app/app_model.php"
+			],
+			[
+				"acccon",
+				"splash/app/controllers/account_controller.php"
+			],
+			[
+				"ticketsal",
+				"splash/app/models/ticket_sale.php"
+			],
+			[
+				"evenrsv",
+				"splash/app/models/event_rsvp.php"
+			],
+			[
+				"ticketoder",
+				"splash/app/models/ticket_order.php"
+			],
+			[
+				"accountcontro",
+				"splash/app/tests/controllers/AccountControllerTest.php"
+			],
+			[
+				"contact",
+				"splash/app/models/contact.php"
+			],
+			[
+				"splashfee",
+				"splash/app/models/splash_feed.php"
+			],
+			[
+				"ticketsale",
+				"splash/app/models/ticket_sale.php"
+			],
+			[
+				"currenc",
+				"splash/app/models/currency.php"
+			],
+			[
+				"currencybundle.php",
+				"splash/vendor/symfony/intl/Symfony/Component/Intl/ResourceBundle/CurrencyBundle.php"
+			],
+			[
+				"currencyli",
+				"splash/app/vendors/splash/CurrencyLib.php"
+			],
+			[
+				"splashtest",
+				"splash/app/tests/SplashTest.php"
+			],
+			[
+				"ticekt_sal",
+				"splash/app/models/ticket_sale.php"
+			],
+			[
+				"scenario",
+				"splash/app/tests/helpers/Scenario.php"
+			],
+			[
+				"purchaseon",
+				"splash/app/controllers/purchase_controller.php"
+			],
+			[
+				"tickettype",
+				"splash/app/models/ticket_type.php"
+			],
+			[
+				"ticekt_order",
+				"splash/app/models/ticket_order.php"
+			],
+			[
+				"accountcontest",
+				"splash/app/tests/controllers/AccountControllerTest.php"
+			],
+			[
+				"account",
+				"splash/app/controllers/account_controller.php"
+			],
+			[
+				"ticekt_or",
+				"splash/app/models/ticket_order.php"
+			],
+			[
+				"ticketorder",
+				"splash/app/vendors/splash/TicketOrder.php"
+			],
+			[
+				"purchac",
+				"splash/app/controllers/purchase_controller.php"
+			],
+			[
+				"rsvpemaicon",
+				"splash/app/tests/vendors/splash/EmailConfirmations/RsvpEmailConfirmationServiceTest.php"
+			],
+			[
+				"rsvpemai",
+				"splash/app/vendors/splash/EmailConfirmations/RsvpEmailConfirmationService.php"
+			],
+			[
+				"rsvpemailconfirmationservice.php",
+				"splash/app/vendors/splash/EmailConfirmations/RsvpEmailConfirmationService.php"
+			],
+			[
+				"suifilejs",
+				"splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-file/sui.file.js"
+			],
+			[
+				"triggereemailde",
+				"splash/app/tests/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelperTest.php"
+			],
+			[
+				"baseclass",
+				"splash/app/vendors/splash/BaseClass.php"
+			],
+			[
+				"trigeemaide",
+				"splash/app/vendors/splash/EmailConfirmations/TriggeredEmailDefaultsHelper.php"
+			],
+			[
+				"eventcontact",
+				"splash/app/models/event_contact.php"
+			],
+			[
+				"siescon",
+				"splash/app/tests/controllers/SitesControllerTest.php"
+			],
+			[
+				"sitescontes",
+				"splash/app/tests/controllers/SitesControllerTest.php"
+			],
+			[
+				"confirmatio",
+				"splash/app/controllers/confirmations_controller.php"
+			],
+			[
+				"confirmationcon",
+				"splash/app/config/migrations/20160829150904_add_table_integration_config_trigger.php"
+			],
+			[
+				"eventrs",
+				"splash/app/models/event_rsvp.php"
+			],
+			[
+				"basecla",
+				"splash/app/vendors/splash/BaseClass.php"
+			],
+			[
+				"emaiforpate",
+				"splash/app/tests/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParserTest.php"
+			],
+			[
+				"suicheckbo",
+				"splash/app/resources/public/js/splash/sui/components/sui-input-components/sui-multi-checkbox/sui.multi-checkbox.js"
+			],
+			[
+				"emaiseparsete",
+				"splash/app/tests/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParserTest.php"
+			],
+			[
+				"emailsettingstriggeredemailsformatpar",
+				"splash/app/vendors/splash/Event/EmailSettingsTriggeredEmailsFormatParser.php"
+			],
+			[
+				"ticketype",
+				"splash/app/models/ticket_type.php"
+			],
+			[
+				"triggereemailadap",
+				"splash/app/tests/vendors/splash/EmailConfirmations/TriggeredEmailsAdapterTest.php"
+			],
+			[
+				"invaltype",
+				"splash/vendor/symfony/config/Definition/Exception/InvalidTypeException.php"
+			],
+			[
+				"emailsema",
+				"splash/app/vendors/splash/Event/EmailSettingsManager.php"
+			],
+			[
+				"colorsstyl",
+				"splash/app/frontend/common/styles/colors.styl"
+			],
+			[
+				"emailsettingsmanagertest",
+				"splash/app/tests/vendors/splash/Event/EmailSettingsManagerTest.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"\"%\":function(a,c,d,e)"
+			],
+			[
+				"_regen",
+				"_regenerateGrp"
+			],
+			[
+				"reloadRSVPBlock",
+				"reloadRSVPBlock"
+			],
+			[
+				"createRecaptcha",
+				"createRecaptcha"
+			],
+			[
+				"modalElement",
+				"modalElement"
+			]
+		],
+		"width": 821.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
