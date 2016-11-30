@@ -4,9 +4,9 @@ import {
   View,
   Text,
   TouchableOpacity,
-  MapView
 } from 'react-native';
 
+import MapView from 'react-native-maps';
 import moment from 'moment';
 import Icon from 'react-native-vector-icons/Ionicons';
 import NavigationBar from 'react-native-navbar';
@@ -26,11 +26,11 @@ const ActivityMap = ({ event }) => {
   return (
     <MapView
       style={globals.map}
-      region={mapRegion}
-      annotations={[{
-        latitude: mapRegion.latitude,
-        longitude: mapRegion.longitude
-      }]}
+      initialRegion={mapRegion}
+      // annotations={[{
+      //   latitude: mapRegion.latitude,
+      //   longitude: mapRegion.longitude
+      // }]}
     />
   )
 };
