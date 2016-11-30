@@ -703,10 +703,13 @@ export const globals = StyleSheet.create({
   inactive: {
     backgroundColor: Colors.inactive
   },
-  map: {
+  mapContainer: {
     backgroundColor: Colors.inactive,
     height: (deviceHeight / 3),
-    width: deviceWidth
+    width: deviceWidth,
+  },
+  map: {
+    ...StyleSheet.absoluteFillObject,
   },
   flexRow: {
     flexDirection: 'row',

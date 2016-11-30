@@ -24,14 +24,16 @@ const ActivityMap = ({ event }) => {
     longitudeDelta: 0.01,
   };
   return (
-    <MapView
-      style={globals.map}
-      initialRegion={mapRegion}
-      // annotations={[{
-      //   latitude: mapRegion.latitude,
-      //   longitude: mapRegion.longitude
-      // }]}
-    />
+    <View style={globals.mapContainer}>
+      <MapView
+        style={globals.map}
+        initialRegion={mapRegion}
+        // annotations={[{
+        //   latitude: mapRegion.latitude,
+        //   longitude: mapRegion.longitude
+        // }]}
+      />
+    </View>
   )
 };
 
