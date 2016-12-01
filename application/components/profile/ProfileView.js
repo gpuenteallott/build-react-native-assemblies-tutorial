@@ -10,13 +10,32 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import NavigationBar from 'react-native-navbar';
 import Colors from '../../styles/colors';
-import { currentUser } from '../../fixtures';
 import { globals, profileStyles } from '../../styles';
+import { ReactLogo } from '../../fixtures';
 const styles = profileStyles;
 
 class ProfileView extends Component{
+  getUserLocationLabel() {
+    let { currentUser } = this.props;
+
+    let cityLongName = (
+      currentUser.location && currentUser.location.city && currentUser.location.city.long_name ||
+      '');
+    let stateShortName = (
+      currentUser.location && currentUser.location.state && currentUser.location.state.short_name ||
+      '');
+    return [
+      cityLongName,
+      stateShortName,
+    ].filter((name) => name !== '').join(', ');
+  }
   render() {
     let titleConfig = { title: 'Profile', tintColor: 'white' };
+    let { currentUser } = this.props;
+
+    let avatar = currentUser.avatar || ReactLogo;
+    let locationName = this.getUserLocationLabel();
+
     return (
       <View style={[globals.flexContainer, globals.inactive]}>
         <NavigationBar
@@ -27,7 +46,7 @@ class ProfileView extends Component{
           <View style={styles.flexRow}>
             <TouchableOpacity style={[globals.flexCenter, globals.pv1]}>
               <Image
-                source={{uri: currentUser.avatar}}
+                source={{uri: avatar}}
                 style={styles.avatar}
               />
             </TouchableOpacity>
@@ -36,7 +55,7 @@ class ProfileView extends Component{
                 {currentUser.firstName} {currentUser.lastName}
               </Text>
               <Text style={globals.h5}>
-                {currentUser.location.city.long_name}, {currentUser.location.state.short_name}
+                {locationName}
               </Text>
             </View>
           </View>
