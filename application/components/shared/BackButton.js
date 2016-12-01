@@ -2,7 +2,7 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { globals } from '../styles';
+import { globals } from '../../styles';
 
 export default BackButton = ({ handlePress }) => (
   <TouchableOpacity
