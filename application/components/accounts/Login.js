@@ -8,7 +8,8 @@ import {
 } from 'react-native';
 import { extend } from 'underscore';
 
-import { API, DEV } from '../../config';
+import { API } from '../../config';
+import { log } from '../../utilities';
 import { Headers } from '../../fixtures';
 
 import BackButton from '../shared/BackButton';
@@ -32,7 +33,7 @@ class Login extends Component{
     };
   }
   loginUser(){
-    if (DEV) { console.log('Logging in...'); }
+    log('Logging in...');
     fetch(`${API}/users/login`, {
       method: 'POST',
       headers: Headers,
@@ -61,7 +62,7 @@ class Login extends Component{
     .done();
   }
   updateUserInfo(user){
-    if (DEV) { console.log('Logged in user:', user); }
+    log('Logged in user:', user);
     this.props.updateUser(user);
     this.props.navigator.push({ name: 'Dashboard' })
   }

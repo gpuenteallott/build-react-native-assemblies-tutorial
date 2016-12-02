@@ -15,6 +15,7 @@ class assemblies extends Component {
   constructor(){
     super();
     this.updateUser = this.updateUser.bind(this);
+    this.logout = this.logout.bind(this);
     this.state = {
       user: null
     };
@@ -22,10 +23,15 @@ class assemblies extends Component {
   updateUser(user){
     this.setState({ user: user });
   }
+  logout(){
+    this.nav.push({ name: 'Landing' });
+    this.updateUser(null);
+  }
   render() {
     return (
       <Navigator
         style={globals.flex}
+        ref={(el) => this.nav = el }
         initialRoute={{ name: 'Landing' }}
         renderScene={(route, navigator) => {
           switch(route.name){
@@ -38,6 +44,7 @@ class assemblies extends Component {
                 <Dashboard
                   navigator={navigator}
                   updateUser={this.updateUser}
+                  logout={this.logout}
                   user={this.state.user}
                 />
             );
