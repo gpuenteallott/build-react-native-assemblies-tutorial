@@ -39,7 +39,7 @@ class Conversations extends Component{
     return (
       <TouchableOpacity
         style={globals.flexContainer}
-        onPress={() => this._goToConversation(this.props.currentUser, user)}
+        onPress={() => this._goToConversation(user)}
       >
         <View style={globals.flexRow}>
           <Image

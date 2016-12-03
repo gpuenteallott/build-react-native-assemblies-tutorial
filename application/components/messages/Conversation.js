@@ -24,9 +24,30 @@ import { globals, messagesStyles } from '../../styles';
 const styles = messagesStyles;
 
 const Message = ({ user, message }) => {
-  log('Message', message);
   return (
-    <Text style={styles.messageText}>{message.text}</Text>
+    <View style={[globals.centeredRow, globals.pt1]}>
+      <View>
+        <Image
+          style={globals.avatar}
+          source={{uri: user.avatar? user.avatar : DefaultAvatar }}
+        />
+      </View>
+      <View style={[styles.flexCentered, globals.pv1]}>
+        <View style={globals.flexRow}>
+          <Text style={styles.h5}>
+            {`${user.firstName} ${user.lastName}`}
+          </Text>
+          <Text style={styles.h6}>
+            {moment(new Date(message.createdAt)).fromNow()}
+          </Text>
+        </View>
+        <View style={globals.flexContainer}>
+          <Text style={styles.messageText}>
+            {message.text}
+          </Text>
+        </View>
+      </View>
+    </View>
   )
 };
 
@@ -36,10 +57,10 @@ export default class Conversation extends Component{
     super();
     this.state = {
       messages: [],
+      message: '',
     };
     this.goBack = this.goBack.bind(this);
-    this.dataSource = this.dataSource.bind(this);
-    this._renderRow = this._renderRow.bind(this);
+    this.createMessage = this.createMessage.bind(this);
   }
   goBack(){
     this.props.navigator.pop();
@@ -47,12 +68,42 @@ export default class Conversation extends Component{
   componentDidMount(){
     this._loadMessages();
   }
+  createMessage() {
+    fetch(new Request(`${API}/messages`, {
+      headers: Headers,
+      method: 'POST',
+      body: JSON.stringify({
+        text: this.state.message,
+        createdAt: Date.now(),
+        senderId: this.props.currentUser.id,
+        recipientId: this.props.user.id,
+      }),
+    }))
+    .then(response => response.json())
+    .then(message => this.addMessageToState(message))
+    .catch(err => logerr(err))
+    .done();
+  }
+  addMessageToState(message){
+    this.setState({
+      messages: [
+        message,
+        ...this.state.messages,
+      ],
+    });
+  }
   _loadMessages(){
-    let { currentUser } = this.props;
+    let { currentUser, user } = this.props;
     let query = {
       $or: [
-        { senderId: currentUser.id },
-        { recipientId: currentUser.id }
+        {
+          senderId: currentUser.id,
+          recipientId: user.id,
+        },
+        {
+          senderId: user.id,
+          recipientId: currentUser.id,
+        },
       ],
       $limit: 25, $sort: { createdAt: -1 }
     };
@@ -62,23 +113,6 @@ export default class Conversation extends Component{
     .then(messages => this.setState({ messages }))
     .catch(err => logerr(err))
     .done();
-  }
-  dataSource() {
-    log('messages', this.state.messages);
-    return (
-      new ListView.DataSource({ rowHasChanged : rowHasChanged })
-      .cloneWithRows(this.state.messages)
-    );
-  }
-  _renderRow(message, idx) {
-
-    return (
-      <Message
-        key={idx}
-        user={this.props.currentUser}
-        message={message}
-      />
-    )
   }
   render(){
     let { user, currentUser } = this.props;
@@ -93,16 +127,39 @@ export default class Conversation extends Component{
           title={titleConfig}
           leftButton={<BackButton handlePress={this.goBack}/>}
         />
-        <View style={globals.flexCenter}>
-          <ListView
-            renderScrollComponent={props => <InvertibleScrollView {...props} inverted />}
-            dataSource={this.dataSource()}
-            // renderHeader={this._renderHeader}
-            renderRow={this._renderRow}
-            enableEmptySections={true}
-            contentInset={{ bottom: 49 }}
+        <InvertibleScrollView inverted={true} style={{flex: 1}}>
+          {this.state.messages.map((msg, idx) => {
+            let senderUser = isEqual(msg.senderId, currentUser.id) ? currentUser : user;
+            return (
+              <Message
+                key={idx}
+                message={msg}
+                user={senderUser}
+              />
+            );
+          })}
+        </InvertibleScrollView>
+
+        <View style={styles.inputBox}>
+          {/* The text input to put on top of the keyboard */}
+          <TextInput
+            style={styles.input}
+            placeholder={'Say something...'}
+            placeholderTextColor={Colors.bodyTextLight}
+            multiline={true}
+            value={this.state.currentMessage}
+            onChangeText={(message) => this.setState({ message })}
           />
+          <TouchableOpacity
+            style={ this.state.message ? styles.buttonActive : styles.buttonInactive }
+            underlayColor='#D97573'
+            onPress={this.createMessage}>
+            <Text style={ this.state.message ? styles.submitButtonText : styles.inactiveButtonText }>Send</Text>
+          </TouchableOpacity>
         </View>
+
+        {/* The view that will animate to match the keyboards height */}
+        <KeyboardSpacer topSpacing={-50}/>
       </View>
     )
   }
