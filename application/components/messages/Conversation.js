@@ -69,6 +69,7 @@ export default class Conversation extends Component{
     this._loadMessages();
   }
   createMessage() {
+    this.setState({message: ''});
     fetch(new Request(`${API}/messages`, {
       headers: Headers,
       method: 'POST',
@@ -147,7 +148,7 @@ export default class Conversation extends Component{
             placeholder={'Say something...'}
             placeholderTextColor={Colors.bodyTextLight}
             multiline={true}
-            value={this.state.currentMessage}
+            value={this.state.message}
             onChangeText={(message) => this.setState({ message })}
           />
           <TouchableOpacity
