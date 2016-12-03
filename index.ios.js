@@ -40,6 +40,7 @@ class assemblies extends Component {
   }
   logout(){
     this.nav.push({ name: 'Landing' });
+    AsyncStorage.removeItem('sid');
     this.updateUser(null);
   }
   async _loadLoginCredentials() {
