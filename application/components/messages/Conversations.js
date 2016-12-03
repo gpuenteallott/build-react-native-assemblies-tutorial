@@ -12,7 +12,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import NavigationBar from 'react-native-navbar';
 import { find, isEqual } from 'underscore';
 import Colors from '../../styles/colors';
-import { DefaultAvatar, currentUser } from '../../fixtures';
+import { DefaultAvatar } from '../../fixtures';
 import { globals, messagesStyles } from '../../styles';
 import { rowHasChanged, log } from '../../utilities';
 
@@ -25,21 +25,21 @@ class Conversations extends Component{
     this.dataSource = this.dataSource.bind(this);
     this._goToConversation = this._goToConversation.bind(this);
   }
-  _goToConversation(currentUser, user){
+  _goToConversation(user){
     this.props.navigator.push({
       name: 'Conversation',
-      currentUser,
+      currentUser: this.props.currentUser,
       user,
     });
   }
   _renderRow(conversation){
     let userIDs = [ conversation.user1Id, conversation.user2Id];
-    let otherUserID = find(userIDs, (id) => !isEqual(id, currentUser.id));
+    let otherUserID = find(userIDs, (id) => !isEqual(id, this.props.currentUser.id));
     let user = find(this.props.users, ({ id }) => isEqual(id, otherUserID));
     return (
       <TouchableOpacity
         style={globals.flexContainer}
-        onPress={() => this._goToConversation(currentUser, user)}
+        onPress={() => this._goToConversation(this.props.currentUser, user)}
       >
         <View style={globals.flexRow}>
           <Image
