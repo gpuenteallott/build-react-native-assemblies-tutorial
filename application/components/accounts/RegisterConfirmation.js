@@ -6,7 +6,8 @@ import {
   Text,
   TouchableOpacity,
   View,
-  Dimensions
+  Dimensions,
+  AsyncStorage,
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -80,6 +81,7 @@ class RegisterConfirmation extends Component{
     .done();
   }
   getUserInfo(sid){
+    AsyncStorage.setItem('sid', sid);
     fetch(`${API}/users/me`, {
       headers: extend(Headers, { 'Set-Cookie': `sid=${sid}`})
     })
