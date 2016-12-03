@@ -12,9 +12,9 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import NavigationBar from 'react-native-navbar';
 import { find, isEqual } from 'underscore';
 import Colors from '../../styles/colors';
-import { FakeConversations, FakeUsers, currentUser } from '../../fixtures';
+import { DefaultAvatar, currentUser } from '../../fixtures';
 import { globals, messagesStyles } from '../../styles';
-import { rowHasChanged } from '../../utilities';
+import { rowHasChanged, log } from '../../utilities';
 
 const styles = messagesStyles;
 
@@ -35,7 +35,7 @@ class Conversations extends Component{
   _renderRow(conversation){
     let userIDs = [ conversation.user1Id, conversation.user2Id];
     let otherUserID = find(userIDs, (id) => !isEqual(id, currentUser.id));
-    let user = find(FakeUsers, ({ id }) => isEqual(id, otherUserID));
+    let user = find(this.props.users, ({ id }) => isEqual(id, otherUserID));
     return (
       <TouchableOpacity
         style={globals.flexContainer}
@@ -44,7 +44,7 @@ class Conversations extends Component{
         <View style={globals.flexRow}>
           <Image
             style={globals.avatar}
-            source={{uri: user.avatar}}
+            source={{uri: (user.avatar || DefaultAvatar)}}
           />
           <View style={globals.flex}>
             <View style={globals.textContainer}>
@@ -74,16 +74,13 @@ class Conversations extends Component{
   dataSource(){
     return (
       new ListView.DataSource({ rowHasChanged : rowHasChanged })
-      .cloneWithRows(FakeConversations)
+      .cloneWithRows(this.props.conversations)
     );
   }
   render() {
     let titleConfig = { title: 'Messages', tintColor: 'white' };
-    // return (
-    //   <Text>
-    //     Come on
-    //   </Text>
-    // );
+    log(this.props.conversations);
+    log(this.props.users);
     return (
       <View style={globals.flexContainer}>
         <NavigationBar
@@ -94,6 +91,7 @@ class Conversations extends Component{
           dataSource={this.dataSource()}
           contentInset={{ bottom: 49 }}
           renderRow={this._renderRow}
+          enableEmptySections={true}
         />
       </View>
     );
