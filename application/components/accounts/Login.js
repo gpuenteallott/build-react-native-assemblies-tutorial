@@ -16,6 +16,7 @@ import BackButton from '../shared/BackButton';
 import Colors from '../../styles/colors';
 import NavigationBar from 'react-native-navbar';
 import { globals, formStyles } from '../../styles';
+import { logerr } from '../../utilities';
 
 const styles = formStyles;
 
@@ -44,7 +45,7 @@ class Login extends Component{
     })
     .then(response => response.json())
     .then(data => this.loginStatus(data))
-    .catch(err => this.connectionError())
+    .catch(err => this.connectionError(err))
     .done();
   }
   loginStatus(response){
@@ -58,7 +59,7 @@ class Login extends Component{
     fetch(`${API}/users/me`, { headers: extend(Headers, { 'Set-Cookie': `sid=${sid}`}) })
     .then(response => response.json())
     .then(user => this.updateUserInfo(user))
-    .catch(err => this.connectionError())
+    .catch(err => this.connectionError(err))
     .done();
   }
   updateUserInfo(user){
@@ -66,7 +67,8 @@ class Login extends Component{
     this.props.updateUser(user);
     this.props.navigator.push({ name: 'Dashboard' })
   }
-  connectionError(){
+  connectionError(err){
+    if (err) { logerr(err); }
     this.setState({ errorMsg: 'Connection error.'})
   }
   goBack(){

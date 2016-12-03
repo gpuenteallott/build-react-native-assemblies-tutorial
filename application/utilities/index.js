@@ -8,7 +8,7 @@ export function log(){
 	if (DEV) { console.log.apply(this, [...arguments]); }
 }
 export function logerr(){
-	if (DEV) { console.err.apply(this, [...arguments]); }
+	if (DEV) { console.error.apply(this, [...arguments]); }
 }
 
 export function registerError({ email, password, location, firstName, lastName}){
