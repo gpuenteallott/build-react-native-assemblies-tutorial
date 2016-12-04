@@ -3,6 +3,7 @@ import { Navigator } from 'react-native';
 import { find, isEqual } from 'underscore';
 
 import Groups from './Groups';
+import Group from './Group';
 import CreateGroup from './CreateGroup';
 import CreateGroupConfirmation from './CreateGroupConfirmation';
 import Headers from '../../fixtures';
@@ -12,12 +13,20 @@ import { globals } from '../../styles';
 class GroupsView extends Component{
   constructor(){
     super();
+    this.addGroup = this.addGroup.bind(this);
     this.state = {
       groups            : [],
       ready             : false,
       suggestedGroups   : [],
     }
   }
+  addGroup(group){
+  this.setState({
+    groups: [
+      ...this.state.groups, group
+    ]
+  })
+}
   componentWillMount(){
     this._loadGroups(this.props.currentUser);
   }
@@ -76,11 +85,19 @@ class GroupsView extends Component{
               return (
                 <CreateGroupConfirmation
                   {...this.props}
-                  {...this.state}
+                  {...route}
+                  navigator={navigator}
+                  addGroup={this.addGroup}
+                />
+              );
+            case 'Group':
+              return (
+                <Group
+                  {...this.props}
                   {...route}
                   navigator={navigator}
                 />
-            );
+              )
           }
         }}
       />
