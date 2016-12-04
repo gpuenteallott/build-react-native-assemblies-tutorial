@@ -15,6 +15,7 @@ import Colors from '../../styles/colors';
 import { DefaultAvatar } from '../../fixtures';
 import { globals, messagesStyles } from '../../styles';
 import { rowHasChanged, log } from '../../utilities';
+import Loading from '../shared/Loading';
 
 const styles = messagesStyles;
 
@@ -78,6 +79,8 @@ class Conversations extends Component{
     );
   }
   render() {
+    if (! this.props.ready) { return <Loading/> }
+
     let titleConfig = { title: 'Messages', tintColor: 'white' };
     log(this.props.conversations);
     log(this.props.users);

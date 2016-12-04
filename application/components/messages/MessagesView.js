@@ -48,11 +48,6 @@ class MessagesView extends Component{
   }
 
   render(){
-    // return (
-    //   <Text>
-    //     Come on
-    //   </Text>
-    // );
     return (
       <Navigator
         style={globals.flex}
