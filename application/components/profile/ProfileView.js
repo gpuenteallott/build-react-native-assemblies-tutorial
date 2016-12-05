@@ -12,9 +12,15 @@ import NavigationBar from 'react-native-navbar';
 import Colors from '../../styles/colors';
 import { globals, profileStyles } from '../../styles';
 import { ReactLogo } from '../../fixtures';
+import BackButton from '../shared/BackButton';
+
 const styles = profileStyles;
 
 class ProfileView extends Component{
+  constructor() {
+    super();
+    this.goBack = this.goBack.bind(this);
+  }
   getUserLocationLabel() {
     let { currentUser } = this.props;
 
@@ -29,6 +35,9 @@ class ProfileView extends Component{
       stateShortName,
     ].filter((name) => name !== '').join(', ');
   }
+  goBack(){
+    this.props.navigator.pop();
+  }
   render() {
     let titleConfig = { title: 'Profile', tintColor: 'white' };
     let { currentUser } = this.props;
@@ -41,6 +50,7 @@ class ProfileView extends Component{
         <NavigationBar
           title={titleConfig}
           tintColor={Colors.brandPrimary}
+          leftButton={this.props.showBackButton ? <BackButton handlePress={this.goBack}/> : undefined}
         />
         <ScrollView style={globals.flex}>
           <View style={styles.flexRow}>

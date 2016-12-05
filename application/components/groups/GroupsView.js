@@ -4,6 +4,7 @@ import { find, isEqual } from 'underscore';
 
 import Groups from './Groups';
 import Group from './Group';
+import ProfileView from '../profile/ProfileView';
 import CreateGroup from './CreateGroup';
 import CreateGroupConfirmation from './CreateGroupConfirmation';
 import Headers from '../../fixtures';
@@ -93,6 +94,14 @@ class GroupsView extends Component{
             case 'Group':
               return (
                 <Group
+                  {...this.props}
+                  {...route}
+                  navigator={navigator}
+                />
+              )
+            case 'Profile':
+              return (
+                <ProfileView
                   {...this.props}
                   {...route}
                   navigator={navigator}

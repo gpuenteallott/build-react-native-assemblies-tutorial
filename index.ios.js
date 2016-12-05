@@ -36,6 +36,9 @@ class assemblies extends Component {
     this._loadLoginCredentials()
   }
   updateUser(user){
+    if (!user.id) {
+      throw new Error('updateUser takes a user object with an id.');
+    }
     this.setState({ user: user });
   }
   logout(){
@@ -62,11 +65,12 @@ class assemblies extends Component {
     })
     .then(response => {
       if (response.status != 200) {
-        this.ready();
+        return null;
       } else {
-        this.updateUser(response.json());
+        return response.json();
       }
     })
+    .then(user => this.updateUser(user))
     .then(() => this.ready())
     .catch(err => logerr(err))
     .done();
