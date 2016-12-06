@@ -36,14 +36,17 @@ class assemblies extends Component {
     this._loadLoginCredentials()
   }
   updateUser(user){
-    if (!user.id) {
+    if (user !== null && !user.id) {
       throw new Error('updateUser takes a user object with an id.');
+    }
+    // If null, clear out cached session id.
+    if (user === null){
+      AsyncStorage.removeItem('sid');
     }
     this.setState({ user: user });
   }
   logout(){
     this.nav.push({ name: 'Landing' });
-    AsyncStorage.removeItem('sid');
     this.updateUser(null);
   }
   async _loadLoginCredentials() {
