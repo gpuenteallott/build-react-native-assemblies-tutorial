@@ -2,6 +2,7 @@ import moment from 'moment';
 import Icon from 'react-native-vector-icons/Ionicons';
 import NavigationBar from 'react-native-navbar';
 import React, { Component } from 'react';
+import Swipeout from 'react-native-swipeout';
 import { View, ListView, ScrollView, TouchableOpacity, Text, Image, ActionSheetIOS } from 'react-native';
 import { find, findIndex, isEqual } from 'underscore';
 
@@ -25,37 +26,56 @@ class EventList extends Component{
   constructor(){
     super();
     this._renderRow = this._renderRow.bind(this);
+    this.getButtons = this.getButtons.bind(this);
+  }
+  getButtons(isGoing, event, currentUser){
+    if (isGoing){
+      return [{
+        text: 'Cancel',
+        type: 'delete',
+        onPress: () => { this.props.cancelRSVP(event, currentUser) }
+      }];
+    } else {
+      return [{
+        text: 'RSVP',
+        type: 'primary',
+        onPress: () => { this.props.joinEvent(event, currentUser) }
+      }];
+    }
   }
   _renderRow(event, sectionID, rowID){
     let { currentUser, events, group } = this.props;
     let isGoing = find(event.going, (id) => isEqual(id, currentUser.id));
+    let right = this.getButtons(isGoing, event, currentUser);
     return (
-      <View style={styles.eventContainer}>
-        <TouchableOpacity
-          style={globals.flex}
-          onPress={() => this.props.visitEvent(event)}
-        >
-          <Text style={globals.h5}>
-            {event.name}
-          </Text>
-          <Text style={styles.h4}>
-            {moment(event.start).format('dddd, MMM Do')}
-          </Text>
-          <Text style={styles.h4}>
-            {event.going.length} Going
-          </Text>
-        </TouchableOpacity>
-        <View style={[globals.flexRow, globals.pa1]}>
-          <Text style={[globals.primaryText, styles.h4, globals.ph1]}>
-            {isGoing ? "You're Going" : "Want to go?"}
-          </Text>
-          <Icon
-            name={ isGoing ? "ios-checkmark" : "ios-add" }
-            size={30}
-            color={Colors.brandPrimary}
-          />
+      <Swipeout backgroundColor='white' rowID={rowID} right={right} left={right}>
+        <View style={styles.eventContainer}>
+          <TouchableOpacity
+            style={globals.flex}
+            onPress={() => this.props.visitEvent(event)}
+          >
+            <Text style={globals.h5}>
+              {event.name}
+            </Text>
+            <Text style={styles.h4}>
+              {moment(event.start).format('dddd, MMM Do')}
+            </Text>
+            <Text style={styles.h4}>
+              {event.going.length} Going
+            </Text>
+          </TouchableOpacity>
+          <View style={[globals.flexRow, globals.pa1]}>
+            <Text style={[globals.primaryText, styles.h4, globals.ph1]}>
+              {isGoing ? "You're Going" : "Want to go?"}
+            </Text>
+            <Icon
+              name={ isGoing ? "ios-checkmark" : "ios-add" }
+              size={30}
+              color={Colors.brandPrimary}
+            />
+          </View>
         </View>
-      </View>
+      </Swipeout>
     )
   }
   dataSource(){
@@ -140,11 +160,46 @@ class Group extends Component{
     this.visitCreateEvent = this.visitCreateEvent.bind(this);
     this.openActionSheet = this.openActionSheet.bind(this);
     this._loadEvents = this._loadEvents.bind(this);
+    this.joinEvent = this.joinEvent.bind(this);
+    this.cancelRSVP = this.cancelRSVP.bind(this);
+    this.visitEvent = this.visitEvent.bind(this);
+    this.updateEvents = this.updateEvents.bind(this);
+    this.updateEventGoing = this.updateEventGoing.bind(this);
     this.state = {
       events    : [],
       ready     : false,
       users     : [],
     }
+  }
+  joinEvent(event, currentUser){
+    let { events } = this.state;
+    let updatedEvent = {
+      ...event,
+      going: [ ...event.going, currentUser.id ]
+    };
+    let index = findIndex(this.state.events, ({ id }) => isEqual(id, event.id));
+    let updatedEvents = [
+      ...events.slice(0, index),
+      updatedEvent,
+      ...events.slice(index + 1)
+    ];
+    this.setState({ events: updatedEvents })
+    this.updateEventGoing(event);
+  }
+  cancelRSVP(event, currentUser){
+    let { events } = this.state;
+    let updatedEvent = {
+      ...event,
+      going: event.going.filter((userId) => ! isEqual(userId, currentUser.id))
+    };
+    let index = findIndex(this.state.events, ({ id }) => isEqual(id, event.id));
+    let updatedEvents = [
+      ...events.slice(0, index),
+      updatedEvent,
+      ...events.slice(index + 1)
+    ];
+    this.setState({ events: updatedEvents })
+    this.updateEventGoing(event);
   }
   openActionSheet(){
     let { group, currentUser } = this.props;
@@ -169,6 +224,37 @@ class Group extends Component{
           return;
       }
     });
+  }
+  updateEvents(event){
+    let { events } = this.state;
+    let idx = findIndex(this.state.events, ({ id }) => isEqual(id, event.id));
+    let updatedEvents = [
+      ...events.slice(0, idx),
+      event,
+      ...events.slice(idx + 1)
+    ];
+    this.setState({ events: updatedEvents })
+  }
+  updateEventGoing(event){
+    fetch(`${API}/events/${event.id}`, {
+      method: 'PUT',
+      headers: Headers,
+      body: JSON.stringify({
+        going: event.going
+      })
+    })
+    .then(response => response.json())
+    .then(data => {})
+    .catch(err => {})
+    .done();
+  }
+  visitEvent(event){
+    this.props.navigator.push({
+      name: 'Event',
+      group: this.props.group,
+      updateEvents: this.updateEvents,
+      event,
+    })
   }
   visitCreateEvent(group){
     this.props.navigator.push({
@@ -216,12 +302,6 @@ class Group extends Component{
       showBackButton: true,
     })
   }
-  visitCreateEvent(group){
-    this.props.navigator.push({
-      name: 'CreateEvent',
-      group
-    })
-  }
   render(){
     let { group, currentUser } = this.props;
     let showButton = showJoinButton(this.state.users, currentUser) && this.state.ready;
@@ -254,6 +334,9 @@ class Group extends Component{
           <EventList
             {...this.props}
             {...this.state}
+            visitEvent={this.visitEvent}
+            joinEvent={this.joinEvent}
+            cancelRSVP={this.cancelRSVP}
           />
           <View style={globals.lightDivider} />
           <Text style={styles.h2}>Members</Text>

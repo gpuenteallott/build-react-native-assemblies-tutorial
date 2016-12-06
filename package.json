@@ -31,6 +31,7 @@
     "jest": "17.0.3",
     "react-test-renderer": "15.4.1",
     "react-native-config": "0.0.7",
-    "react-native-google-places-autocomplete": "https://github.com/tgoldenberg/react-native-google-places-autocomplete/tarball/master"
+    "react-native-google-places-autocomplete": "https://github.com/tgoldenberg/react-native-google-places-autocomplete/tarball/master",
+    "react-native-swipeout": "dancormier/react-native-swipeout#829b7c01ba969cd70509944bc210289b759d48a6"
   }
 }
