@@ -17,6 +17,7 @@
     "react-native-keyboard-spacer": "^0.3.0",
     "react-native-maps": "^0.11.0",
     "react-native-navbar": "^1.5.4",
+    "react-native-picker": "^4.0.10",
     "react-native-selectme": "^1.2.3",
     "react-native-vector-icons": "^3.0.0",
     "underscore": "^1.8.3"
