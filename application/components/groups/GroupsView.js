@@ -8,6 +8,7 @@ import ProfileView from '../profile/ProfileView';
 import CreateGroup from './CreateGroup';
 import CreateEventConfirmation from './CreateEventConfirmation';
 import CreateEvent from './CreateEvent';
+import Event from './Event';
 import CreateGroupConfirmation from './CreateGroupConfirmation';
 import Headers from '../../fixtures';
 import { API, DEV } from '../../config';
@@ -165,6 +166,14 @@ class GroupsView extends Component{
                   navigator={navigator}
                 />
               );
+            case 'Event':
+              return (
+                <Event
+                  {...this.props}
+                  {...route}
+                  navigator={navigator}
+                />
+              )
           }
         }}
       />
